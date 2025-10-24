@@ -1,0 +1,294 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Our Portfolio | SmileBright Dental Clinic</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&family=Playfair+Display:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+    <!-- Header & Navigation -->
+    <header class="header">
+        <div class="container">
+            <nav class="nav">
+                <a href="index.html" class="logo">
+                    <i class="fas fa-tooth"></i>
+                    <span>SmileBright</span>
+                </a>
+                <div class="nav-toggle" id="navToggle">
+                    <span class="bar"></span>
+                    <span class="bar"></span>
+                    <span class="bar"></span>
+                </div>
+                <ul class="nav-menu" id="navMenu">
+                    <li class="nav-item"><a href="index.html" class="nav-link">Home</a></li>
+                    <li class="nav-item"><a href="services.html" class="nav-link">Services</a></li>
+                    <li class="nav-item"><a href="portfolio.html" class="nav-link active">Portfolio</a></li>
+                    <li class="nav-item"><a href="about.html" class="nav-link">About</a></li>
+                    <li class="nav-item"><a href="contact.html" class="nav-link">Contact</a></li>
+                    <li class="nav-item"><a href="contact.html" class="btn btn-primary">Book Appointment</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <!-- Page Header -->
+    <section class="page-header">
+        <div class="container">
+            <h1>Our Portfolio</h1>
+            <p>See the amazing transformations we've created for our patients</p>
+        </div>
+    </section>
+
+    <!-- Portfolio Section -->
+    <section class="portfolio">
+        <div class="container">
+            <div class="portfolio-filters">
+                <button class="filter-btn active" data-filter="all">All Cases</button>
+                <button class="filter-btn" data-filter="whitening">Teeth Whitening</button>
+                <button class="filter-btn" data-filter="implants">Dental Implants</button>
+                <button class="filter-btn" data-filter="veneers">Veneers</button>
+                <button class="filter-btn" data-filter="orthodontics">Orthodontics</button>
+            </div>
+            
+            <div class="portfolio-grid">
+                <div class="portfolio-item" data-category="whitening">
+                    <div class="portfolio-image">
+                        <img src="https://images.pexels.com/photos/6627528/pexels-photo-6627528.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" alt="Teeth Whitening Before and After">
+                        <div class="portfolio-overlay">
+                            <div class="portfolio-info">
+                                <h3>Professional Teeth Whitening</h3>
+                                <p>Dramatic results after one session of our professional whitening treatment.</p>
+                                <div class="portfolio-btns">
+                                    <button class="btn-view">View Details</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="portfolio-item" data-category="implants">
+                    <div class="portfolio-image">
+                        <img src="https://images.pexels.com/photos/4270088/pexels-photo-4270088.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" alt="Dental Implants">
+                        <div class="portfolio-overlay">
+                            <div class="portfolio-info">
+                                <h3>Full Mouth Dental Implants</h3>
+                                <p>Complete restoration with dental implants for a natural-looking smile.</p>
+                                <div class="portfolio-btns">
+                                    <button class="btn-view">View Details</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="portfolio-item" data-category="veneers">
+                    <div class="portfolio-image">
+                        <img src="https://images.unsplash.com/photo-1629909613654-28e377c37b09?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1000&q=80" alt="Porcelain Veneers">
+                        <div class="portfolio-overlay">
+                            <div class="portfolio-info">
+                                <h3>Porcelain Veneers</h3>
+                                <p>Transformed uneven teeth with custom porcelain veneers for a perfect smile.</p>
+                                <div class="portfolio-btns">
+                                    <button class="btn-view">View Details</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="portfolio-item" data-category="orthodontics">
+                    <div class="portfolio-image">
+                        <img src="https://images.unsplash.com/photo-1588776814546-1ffcf47267a5?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1000&q=80" alt="Invisalign Treatment">
+                        <div class="portfolio-overlay">
+                            <div class="portfolio-info">
+                                <h3>Invisalign Treatment</h3>
+                                <p>Corrected misalignment with clear aligners for a discreet orthodontic solution.</p>
+                                <div class="portfolio-btns">
+                                    <button class="btn-view">View Details</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="portfolio-item" data-category="whitening">
+                    <div class="portfolio-image">
+                        <img src="https://images.pexels.com/photos/6627534/pexels-photo-6627534.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" alt="Teeth Cleaning">
+                        <div class="portfolio-overlay">
+                            <div class="portfolio-info">
+                                <h3>Deep Cleaning & Whitening</h3>
+                                <p>Combination of deep cleaning and whitening for a revitalized smile.</p>
+                                <div class="portfolio-btns">
+                                    <button class="btn-view">View Details</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="portfolio-item" data-category="implants">
+                    <div class="portfolio-image">
+                        <img src="https://images.pexels.com/photos/7195433/pexels-photo-7195433.jpeg" alt="Single Tooth Implant">
+                        <div class="portfolio-overlay">
+                            <div class="portfolio-info">
+                                <h3>Single Tooth Implant</h3>
+                                <p>Replaced a missing front tooth with a natural-looking dental implant.</p>
+                                <div class="portfolio-btns">
+                                    <button class="btn-view">View Details</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Testimonials Section -->
+    <section class="testimonials">
+        <div class="container">
+            <div class="section-header">
+                <h2>Patient Testimonials</h2>
+                <p>Hear what our patients have to say about their experience</p>
+            </div>
+            
+            <div class="testimonials-slider">
+                <div class="testimonial-slide active">
+                    <div class="testimonial-content">
+                        <div class="quote-icon">
+                            <i class="fas fa-quote-left"></i>
+                        </div>
+                        <p>"I was nervous about getting dental implants, but the team at SmileBright made the process so comfortable. The results are amazing - I can smile with confidence again!"</p>
+                        <div class="testimonial-author">
+                            <div class="author-image">
+                                <img src="https://images.pexels.com/photos/774909/pexels-photo-774909.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" alt="Sarah Johnson">
+                            </div>
+                            <div class="author-info">
+                                <h4>Sarah Johnson</h4>
+                                <span>Dental Implants Patient</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="testimonial-slide">
+                    <div class="testimonial-content">
+                        <div class="quote-icon">
+                            <i class="fas fa-quote-left"></i>
+                        </div>
+                        <p>"The Invisalign treatment transformed my smile completely. The process was so easy, and no one even noticed I was wearing aligners. Thank you, SmileBright!"</p>
+                        <div class="testimonial-author">
+                            <div class="author-image">
+                                <img src="https://images.pexels.com/photos/1222271/pexels-photo-1222271.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" alt="Michael Chen">
+                            </div>
+                            <div class="author-info">
+                                <h4>Michael Chen</h4>
+                                <span>Invisalign Patient</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="testimonial-slide">
+                    <div class="testimonial-content">
+                        <div class="quote-icon">
+                            <i class="fas fa-quote-left"></i>
+                        </div>
+                        <p>"I've been coming to SmileBright for years. The staff is always friendly, and the dentists are incredibly knowledgeable. They make every visit pleasant."</p>
+                        <div class="testimonial-author">
+                            <div class="author-image">
+                                <img src="https://images.pexels.com/photos/712513/pexels-photo-712513.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" alt="Emily Rodriguez">
+                            </div>
+                            <div class="author-info">
+                                <h4>Emily Rodriguez</h4>
+                                <span>Regular Patient</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="testimonial-nav">
+                <button class="testimonial-prev"><i class="fas fa-chevron-left"></i></button>
+                <div class="testimonial-dots">
+                    <span class="dot active"></span>
+                    <span class="dot"></span>
+                    <span class="dot"></span>
+                </div>
+                <button class="testimonial-next"><i class="fas fa-chevron-right"></i></button>
+            </div>
+        </div>
+    </section>
+
+    <!-- CTA Section -->
+    <section class="cta">
+        <div class="container">
+            <div class="cta-content">
+                <h2>Ready for Your Smile Transformation?</h2>
+                <p>Schedule a consultation to discuss how we can help you achieve the smile of your dreams.</p>
+                <a href="contact.html" class="btn btn-light">Book Consultation</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-grid">
+                <div class="footer-col">
+                    <div class="logo">
+                        <i class="fas fa-tooth"></i>
+                        <span>SmileBright</span>
+                    </div>
+                    <p>Providing exceptional dental care with modern technology and a compassionate approach.</p>
+                    <div class="social-links">
+                        <a href="#"><i class="fab fa-facebook-f"></i></a>
+                        <a href="#"><i class="fab fa-twitter"></i></a>
+                        <a href="#"><i class="fab fa-instagram"></i></a>
+                        <a href="#"><i class="fab fa-linkedin-in"></i></a>
+                    </div>
+                </div>
+                <div class="footer-col">
+                    <h3>Quick Links</h3>
+                    <ul>
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="services.html">Services</a></li>
+                        <li><a href="portfolio.html">Portfolio</a></li>
+                        <li><a href="about.html">About Us</a></li>
+                        <li><a href="contact.html">Contact</a></li>
+                    </ul>
+                </div>
+                <div class="footer-col">
+                    <h3>Services</h3>
+                    <ul>
+                        <li><a href="services.html">Teeth Cleaning</a></li>
+                        <li><a href="services.html">Dental Implants</a></li>
+                        <li><a href="services.html">Teeth Whitening</a></li>
+                        <li><a href="services.html">Root Canal</a></li>
+                        <li><a href="services.html">Orthodontics</a></li>
+                    </ul>
+                </div>
+                <div class="footer-col">
+                    <h3>Contact Info</h3>
+                    <ul class="contact-info">
+                        <li><i class="fas fa-map-marker-alt"></i> 123 Dental Street, Health City</li>
+                        <li><i class="fas fa-phone"></i> (123) 456-7890</li>
+                        <li><i class="fas fa-envelope"></i> info@smilebright.com</li>
+                        <li><i class="fas fa-clock"></i> Mon-Fri: 8am-7pm, Sat: 9am-4pm</li>
+                    </ul>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2025 SmileBright Dental Clinic. All rights reserved. | <a href="privacy-policy.html">Privacy Policy</a></p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
